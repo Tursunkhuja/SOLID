@@ -43,9 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DIP\BetterDesign\CheckPrinter.cs" />
+    <Compile Include="DIP\BetterDesign\Invoice.cs" />
+    <Compile Include="DIP\BetterDesign\InvoicePrinter.cs" />
+    <Compile Include="DIP\BetterDesign\IPrinter.cs" />
+    <Compile Include="DIP\BetterDesign\PrintingSystem.cs" />
+    <Compile Include="DIP\CheckPrinter.cs" />
     <Compile Include="DIP\Invoice.cs" />
     <Compile Include="DIP\InvoicePrinter.cs" />
     <Compile Include="DIP\PrintingSystem.cs" />
+    <Compile Include="ISP\BetterDesign\HPLaserJetPrinter.cs" />
+    <Compile Include="ISP\BetterDesign\IFaxTask.cs" />
+    <Compile Include="ISP\BetterDesign\IPrintDuplexTask.cs" />
+    <Compile Include="ISP\BetterDesign\IPrinterTasks.cs" />
+    <Compile Include="ISP\BetterDesign\LiquidInkjetPrinter.cs" />
     <Compile Include="ISP\HPLaserJetPrinter.cs" />
     <Compile Include="ISP\IPrinterTasks.cs" />
     <Compile Include="ISP\LiquidInkjetPrinter.cs" />

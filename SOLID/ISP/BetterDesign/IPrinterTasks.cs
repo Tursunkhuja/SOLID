@@ -4,13 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SOLID.ISP
+namespace SOLID.ISP.BetterDesign
 {
     public interface IPrinterTasks
     {
         void Print(string PrintContent);
         void Scan(string ScanContent);
-        public void Fax(string FaxContent);
-        public void PrintDuplex(string PrintDuplexContent);
     }
 }

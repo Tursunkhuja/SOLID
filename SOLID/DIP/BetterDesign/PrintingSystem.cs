@@ -5,19 +5,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SOLID.DIP
+namespace SOLID.DIP.BetterDesign
 {
     public class PrintingSystem
     {
-        private InvoicePrinter _invoicePrinter;
-        public PrintingSystem(InvoicePrinter printer)
+        private IPrinter _printer;
+        public PrintingSystem(IPrinter printer)
         {
-            _invoicePrinter = printer;
+            _printer = printer;
         }
 
         public void Print(Invoice invoice)
         {
-            _invoicePrinter.Print(invoice);
+            _printer.Print(invoice);
         }
     }
 }
